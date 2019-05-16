@@ -1,0 +1,85 @@
+﻿@model myMvcAppTraining.Models.Employer
+
+@{
+    ViewBag.Title = "EmpDetails";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Employer</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empFirstname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empFirstname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empMiddlename)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empMiddlename)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empLastname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empLastname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empGender)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empGender)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empContactno)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empContactno)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empcity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empcity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empDescription)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empDescription)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empUsername)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empUsername)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.empPassword)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.empPassword)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.companyId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Companys.name)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "EmpEdit", new { empId = Model.empId }) |
+    @Html.ActionLink("Back to List", "EmpList")
+</p>

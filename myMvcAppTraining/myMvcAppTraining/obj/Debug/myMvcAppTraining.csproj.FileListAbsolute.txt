@@ -1,0 +1,170 @@
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\myMvcAppTraining.dll.config
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\myMvcAppTraining.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\myMvcAppTraining.pdb
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Antlr3.Runtime.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.AspNet.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.Core.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.SqlServer.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.Edm.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.OData.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.Infrastructure.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Newtonsoft.Json.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Spatial.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Helpers.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.OData.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Mvc.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Optimization.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Razor.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Deployment.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Razor.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\WebGrease.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.Data.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.WebData.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.SqlServer.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Newtonsoft.Json.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Helpers.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Mvc.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Razor.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Deployment.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Razor.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.Data.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.WebData.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.AspNet.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.Core.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.OData.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.Edm.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.OData.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\System.Spatial.xml
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\de\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\es\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\fr\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\it\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ja\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ko\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\ru\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\obj\Debug\myMvcAppTraining.dll
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\obj\Debug\myMvcAppTraining.pdb
+c:\users\prasad phakade\documents\visual studio 2013\Projects\myMvcAppTraining\myMvcAppTraining\obj\Debug\myMvcAppTraining.csprojResolveAssemblyReference.cache
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\myMvcAppTraining.dll.config
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\myMvcAppTraining.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\myMvcAppTraining.pdb
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Antlr3.Runtime.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.AspNet.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.Core.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.SqlServer.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.Edm.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.OData.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.Infrastructure.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Newtonsoft.Json.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Net.Http.Formatting.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Spatial.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Helpers.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.OData.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.WebHost.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Mvc.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Optimization.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Razor.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Deployment.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Razor.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\WebGrease.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.Data.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.WebData.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\EntityFramework.SqlServer.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Newtonsoft.Json.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Net.Http.Formatting.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Helpers.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.WebHost.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Mvc.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Razor.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Deployment.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.WebPages.Razor.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.Data.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\WebMatrix.WebData.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.AspNet.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.Core.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OAuth.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Web.Http.OData.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.Edm.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\Microsoft.Data.OData.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\System.Spatial.xml
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\de\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\es\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\it\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\de\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\es\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\fr\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\it\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ja\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ko\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\ru\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\zh-Hans\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\bin\zh-Hant\System.Spatial.resources.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\obj\Debug\myMvcAppTraining.csprojResolveAssemblyReference.cache
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\obj\Debug\myMvcAppTraining.dll
+D:\Prasad\zPersonal\Training\TrainingComplete\myMvcAppTraining\myMvcAppTraining\obj\Debug\myMvcAppTraining.pdb

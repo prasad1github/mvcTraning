@@ -1,0 +1,113 @@
+﻿@model myMvcAppTraining.Models.Employer
+
+@{
+    ViewBag.Title = "EmpCreate";
+}
+
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<h2>EmpCreate</h2>
+
+@using (Html.BeginForm("EmpCreate", "Employer", FormMethod.Post, new { id = "createForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <legend>Employer</legend>
+    <fieldset>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empFirstname)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empFirstname)
+            @Html.ValidationMessageFor(model => model.empFirstname)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empMiddlename)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empMiddlename)
+            @Html.ValidationMessageFor(model => model.empMiddlename)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empLastname)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empLastname)
+            @Html.ValidationMessageFor(model => model.empLastname)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empGender)
+        </div>
+        <div class="editor-field">          
+            @Html.DropDownListFor(model => model.empGender, new List<SelectListItem>
+                 {
+                     new SelectListItem { Text = "Male", Value = "Male"},
+                   new SelectListItem { Text ="Female", Value = "Female"}
+                   }, "--Select Gender--")
+
+
+            @Html.ValidationMessageFor(model => model.empGender)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empContactno)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empContactno)
+            @Html.ValidationMessageFor(model => model.empContactno)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empcity)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empcity)
+            @Html.ValidationMessageFor(model => model.empcity)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empDescription)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empDescription)
+            @Html.ValidationMessageFor(model => model.empDescription)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empUsername)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empUsername)
+            @Html.ValidationMessageFor(model => model.empUsername)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.empPassword)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.empPassword)
+            @Html.ValidationMessageFor(model => model.empPassword)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.companyId)
+        </div>
+        <div class="editor-field">
+            @* @Html.HiddenFor(model => model.companyId)*@
+            @Html.DropDownListFor(model => model.companyId, (SelectList)ViewBag.companyList, "--Select Company--")
+            @Html.ValidationMessageFor(model => model.companyId)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" id="btnCreate" />
+           
+        </p>
+    </fieldset>
+}

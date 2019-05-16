@@ -1,0 +1,282 @@
+﻿@model IEnumerable<myMvcAppTraining.Models.Employer>
+
+
+@{
+    ViewBag.Title = "Employer List";
+  
+}
+
+<link href="~/Scripts/css/StyleSheetLoginForm.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.js" type="text/javascript"></script>
+<script src="//ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.validate.unobtrusive.js" type="text/javascript"></script>
+
+<p>
+    <b>@Html.ActionLink("Register", "", null, new { @class = "buttonclass", @id = "linkAdd"})</b>
+</p>
+<h2>Employer List</h2>
+<div align="center" style="font-family:'Times New Roman'" >
+    <table class="classTableDesign" id="tblData">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.empFirstname)
+                </th>
+                <th>
+                    @* @Html.DisplayNameFor(model => model.empMiddlename)*@
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.empLastname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.empGender)l
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.empContactno)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.empcity)
+                </th>
+                <th>
+                    @*@Html.DisplayNameFor(model => model.empDescription)*@
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.empUsername)
+                </th>
+                <th>
+                    @*  @Html.DisplayNameFor(model => model.empPassword)*@
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.companyId)
+                    
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+    
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.empFirstname)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.empMiddlename)*@
+                    @Html.HiddenFor(modelItem => item.empMiddlename)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.empLastname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.empGender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.empContactno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.empcity)
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.empDescription)*@
+                    @Html.HiddenFor(modelItem => item.empDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.empUsername)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.empPassword)*@
+                    @Html.HiddenFor(modelItem => item.empPassword)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Companys.name)
+                </td>
+                <td >
+                    @*@Html.ActionLink("Edit", "EmpEdit", new { empId = item.empId }, new { @class = "buttonclass",@id="linkEdit" }) |*@
+                    @Html.ActionLink("Edit", "EmpEdit", "Employer", new { empId = item.empId }, new { @class = "buttonEditclass buttonclassCurved", id = item.empId }) |
+                    @Html.ActionLink("Details", "EmpDetails", new { empId = item.empId }, new { @class = "buttonclassCurved" }) |
+                    @Html.ActionLink("Delete", "EmpDelete", new { empId = item.empId }, new { onclick = "return confirm('Are you Sure Want to delete the data')", @class = "buttonclassCurved" })
+
+                </td>
+
+            </tr>
+
+        }
+
+    </table>
+</div>
+
+
+<div id="divTable" style="display: none; font-family: 'Times New Roman'" class="divpopup"  ></div>
+
+<script>
+
+
+    $(document).ready(function () {
+        $("tr:even").css("background-color", "#d9edf7");
+       
+        //Add new
+
+        $("#linkAdd").click(function () {
+
+            $("#divTable").dialog({
+                resizable: true,
+                dialogClass: 'alert-dialog',
+                height: 700,
+                width: 500,
+                modal: true,
+                open: function (event) {
+
+                    @*$(this).load('@Url.Action("EmpCreate", "Employer")');*@
+                    $(this).load("Employer/EmpCreate");
+                },
+                show: {
+
+                    effect: "blind",
+                    duration: 1000
+                },
+
+                title: "Add Employer",
+                buttons: {
+                    "Add": function () {
+                        
+                        var form = $("#createForm");
+                        $.validator.unobtrusive.parse(form);                        
+                        if (form.valid()) {
+                           
+                            addEmployer();
+                            alert("Added Successfully....");
+                            window.location = window.location.href;
+                            location.reload();
+                            $(this).dialog("close");
+                            $("#divTable").empty();
+                        }
+                        
+                       
+                    }
+                    ,
+                    "Cancel": function () {
+                       
+                        $(this).dialog('close');
+                    }
+                }
+
+            });
+            return false;
+        });
+
+        //Edit
+
+        $(".buttonEditclass").click(function () {
+            var urlEdit = $(this).attr('href');
+            var idx = $(this).attr('id');           
+            $("#divTable").dialog({
+                resizable: true,
+                height: 700,
+                width: 500,
+                modal: true,
+                open: function (event) {
+                    //$(this).load(urlEdit);
+                    debugger;
+                    $(this).load('@Url.Action("EmpEdit", "Employer")?empId='+idx);
+                },
+                show: {
+
+                    effect: "blind",
+                    duration: 1000
+                },
+
+                title: "Update Employer",
+                buttons: {
+                    "Update": function () {
+                       
+                        var form = $("#updateForm");
+                        $.validator.unobtrusive.parse(form);
+                        if (form.valid()) {
+                         
+                            updateEmployer(idx);
+                            alert("Updated Succesfully....");
+                            window.location = window.location.href;
+                            location.reload();
+                            $("#divTable").empty();
+                        }
+                    }
+                    ,
+                    "Cancel": function () {
+                   
+                        $(this).dialog("close");
+                    }
+                }
+
+            });
+            return false;
+        });
+    });
+
+    
+function addEmployer() {
+        var tblEmployer = {}
+        debugger;
+        
+        tblEmployer.empFirstname = $("#empFirstname").val();
+        tblEmployer.empMiddlename = $("#empMiddlename").val();
+        tblEmployer.empLastname = $("#empLastname").val();
+        tblEmployer.empGender = $("#empGender").val();
+        tblEmployer.empContactno = $("#empContactno").val();
+        tblEmployer.empcity = $("#empcity").val();
+        tblEmployer.empDescription = $("#empDescription").val();
+        tblEmployer.empUsername = $("#empUsername").val();
+        tblEmployer.empPassword = $("#empPassword").val();
+        tblEmployer.companyId = $("#companyId").val();
+        $.ajax({
+            url: "Employer/EmpCreate",
+            datatype: "json",
+            data: "{employer:" + JSON.stringify(tblEmployer) + "}",
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {},
+            error: function (err) { alert(err); }
+
+        });
+
+    }
+
+
+function updateEmployer(idx) {
+        var tblEmployer = {}
+
+        tblEmployer.empId = idx;
+        tblEmployer.empFirstname = $("#emp_empFirstname").val();
+        tblEmployer.empMiddlename = $("#emp_empMiddlename").val();
+        tblEmployer.empLastname = $("#emp_empLastname").val();
+        tblEmployer.empGender = $("#emp_empGender").val();
+        tblEmployer.empContactno = $("#emp_empContactno").val();
+        tblEmployer.empcity = $("#emp_empcity").val();
+        tblEmployer.empDescription = $("#emp_empDescription").val();
+        tblEmployer.empUsername = $("#emp_empUsername").val();
+        tblEmployer.empPassword = $("#emp_empPassword").val();
+        tblEmployer.companyId = $("#emp_companyId").val();
+
+        $.ajax({
+            url: "Employer/EmpEdit",
+            datatype: "json",
+            data: "{emp:" + JSON.stringify(tblEmployer) + "}",
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                $("#divTable").dialog("close");
+                },
+            error: function (err) { alert(err); }
+
+        });
+
+}
+</script>
+
+
+
+
+

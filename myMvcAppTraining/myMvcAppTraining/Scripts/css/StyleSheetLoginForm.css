@@ -1,0 +1,237 @@
+﻿body {
+}
+
+.ClassModalpopupasp {
+    /*background:linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.24));*/
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.ClassLoginDiv {
+    position: absolute;
+    /*background-color: #808080;*/
+    border: groove;
+    color: white;
+    width: 390px;
+    height: 230px;
+    margin: 200px 590px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 15px;
+    float: left;
+}
+
+    .ClassLoginDiv:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.ClassButton {
+    width: 200px;
+    height: 500px;
+    background-color: #4CAF50;
+    background: linear-gradient(#007acc,#42d3fb);
+    color: white;
+    border: 2px solid;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+    .ClassButton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        background: linear-gradient(#007acc,#24a0f3);
+    }
+
+.ClassButtonGreen {
+    width: 70px;
+    height: 30px;
+    background-color: #4CAF50;
+    background: linear-gradient(#007acc,#42d3fb);
+    color: white;
+    border: 2px solid;
+    /*border-radius: 7px;*/
+    border-radius: 0px 15px;
+    font-size: 16px;
+}
+
+    .ClassButtonGreen:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        /*background:linear-gradient(#007acc,#24a0f3);*/
+        background: linear-gradient(#007acc,#24a0f3);
+    }
+
+.ClassTextboxes {
+    height: 30px;
+    width: 211px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.ClassSignText {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.ClassGridview {
+    text-align: center;
+}
+
+.ClassFieldsCenter {
+    margin: auto;
+    width: 60%;
+    /*border:3px solid #73AD21;*/
+    padding: 10px;
+    height: 400px;
+}
+
+.ClassFields {
+    display: inline;
+    float: left;
+    height: 800px;
+    width: 200px;
+}
+
+
+.classTableDesign {
+    width: 1400px;
+    height: 500px;
+    border: groove;/*border-radius:0px;*/
+    padding: 10px;
+}
+
+.classTableDesignAsp {
+    /*width:900px;
+     height:900px;*/
+    /*border:groove;*/
+    border-radius: 3px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    /*width:10%;*/
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+th {
+    text-align: center;
+    font-family: Calibri;
+    font-style: italic;
+    font-size: large;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.alignCenterText {
+    text-align: center;
+}
+
+.buttonclass {
+    /*background-color: #4CAF50;*/
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    /*display: inline-block;*/
+    background: linear-gradient(#007acc,#42d3fb);
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+    .buttonclass:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+}
+
+
+
+.field-validation-error {
+    color: red;
+}
+
+.validation-summary-errors {
+    color: Red;
+}
+
+.buttonclassCurved {
+    /*background-color: #4CAF50;*/
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px 15px;
+    background: linear-gradient(#007acc,#42d3fb);
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+    .buttonclassCurved:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.alert-dialog .ui-dialog-title {
+    /*background:linear-gradient(#007acc,#42d3fb);*/
+    /*background-color:#d9edf7;*/
+}
+
+.alert-dialog .ui-widget-header {
+    /*border-radius: 0px 15px;*/
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
+    /*background:#d9edf7;
+     border: 1px solid #b9cd6d;
+     color: #FFFFFF;*/
+}
+/*.ui-state-hover  .ui-widget-header ui-dialog-content ui-widget-header,.ui-state-default, ui-button*/
+
+/*Dialog Validation*/
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000 !important;
+    background-color: #ffeeee !important;
+}
+
+.validation-summary-errors {
+    font-weight: bold !important;
+    color: #ff0000 !important;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Dialog Validation End*/
+.tablesorter-header.tablesorter-headerAsc { 
+    background-image: url(/Images/asc.gif); 
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+} 
